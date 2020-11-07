@@ -1,0 +1,109 @@
+.ab {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	#about {
+		margin-top:-80px;
+  padding-top:80px;
+	}
+	
+	.ab h3 {
+		font-size: 24px;
+		color: #ffd61a;
+		margin-bottom: 24px;
+	}
+	
+	.ab p.about1 {
+		margin-bottom: 64px;
+	}
+	
+	.ab p.about2 {
+		margin-bottom: 80px;
+	}
+	
+	.ab p {
+		margin-bottom: 80px;
+	}
+	
+	/* slider */
+
+	.slide img {
+		width: 600px;
+		height: 400px;
+	}
+
+	.slider {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.slide {
+	width: 600px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.slider-wrap {
+	width: 500%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* スピード */
+}
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	40% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	60% {
+	-webkit-transform: translateX(-1800px);
+	transform: translateX(-1800px);
+	}
+	80% {
+	-webkit-transform: translateX(-2400px);
+	transform: translateX(-2400);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	40% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	60% {
+	-webkit-transform: translateX(-1800px);
+	transform: translateX(-1800px);
+	}
+	80% {
+	-webkit-transform: translateX(-2400);
+	transform: translateX(-2400);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}

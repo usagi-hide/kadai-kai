@@ -1,0 +1,25 @@
+.box2 {
+  height: 60%;
+  background-size: cover;
+  background-image: url(../img/mainbg.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.7;
+}
+
+.ef {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ef2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+

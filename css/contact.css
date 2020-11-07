@@ -1,0 +1,93 @@
+#contact {
+		margin-top: 80px;
+  }
+  
+  #contact .headline {
+    margin-bottom: 30px;
+  }
+
+  #contact .headline h3 {
+    font-size: 24px;
+  }
+
+  #contact .headline p {
+    font-size: 16px;
+  }
+	
+	.txt3 {
+		text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+	}
+	
+	.txt4 {
+		text-align: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+	}
+	
+	.c-f {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.c-f td.tabl1 {
+		font-size: 16px;
+		margin-right: 40px;
+	}
+	
+	.c-f td {
+		padding-left: 120px;
+		padding-bottom: 24px;
+	}
+
+	input[type="checkbox"]{
+		margin-right: 40px;
+		background-color: #f0ebe5;
+	} 
+	
+	input[type="text"] {
+		width: 328px;
+		height: 36px;
+		border: solid 1px #bfbfbf;
+	}
+	input[name="detail"] {
+		width: 328px;
+		height: 108px;
+		border: solid 1px #bfbfbf;
+	}
+	
+	table.c-f tr:nth-child(3) td {
+		padding-bottom: 40px;
+	}
+	table.c-f tr:nth-child(8) td {
+		padding-bottom: 40px;
+	}
+	table.c-f tr:nth-child(7) td {
+		padding-bottom: 32px;
+	}
+	
+	.btn-2 {
+		background-color: #ffd61a;
+		color: #ffffff;
+		font-size: 18px;
+		width: 298px;
+		height: 54px;
+		margin-bottom: 30px;
+	}
+	
+	/* footer */
+	
+	.foot {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		background-color: sandybrown;
+		opacity: 0.5;
+	}
+	
+	.footer p {
+		text-align: center;
+		font-size: 18px;
+		color: #ffffff;
+  }
+  

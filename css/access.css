@@ -1,0 +1,39 @@
+/* ACCESS */
+	#access {
+		border: #ffffff;
+		margin-top:-80px;
+   padding-top: 60px;
+	 background-color: #fafafa;
+	} 
+	
+	.gmap-wrap {
+		position: relative;
+		height: 0;
+		padding-bottom: 56.25%;
+		overflow: hidden;
+		margin-bottom: 64px;
+	}
+	
+	.gmap-wrap iframe,
+	.gmap-wrap object,
+	.gmap-wrap embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+	table.info {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 80px;
+	}
+	
+	.info tr td {
+		padding-left: 48px;
+		padding-bottom: 24px;
+		font-size: 16px;
+	}
+	
